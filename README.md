@@ -62,7 +62,7 @@ Membuat tiga tombol (hijau, putih, kuning) yang memanggil satu function `ubahWar
 
 <img src="Folder_Foto/kode_7.png">  
 <img src="Folder_Foto/kode_7_l1.png">  
-<img src=Folder_Foto/hasil_7.png"">  
+<img src="Folder_Foto/hasil_7.png">  
 <img src="Folder_Foto/hasil_7_l1.png">  
 <img src="Folder_Foto/hasil_7_l2.png">  
 
@@ -138,14 +138,14 @@ Membuat function `cekGenap(angka)` yang memeriksa genap atau tidaknya sebuah ang
 ### Eksperimen 4: Validasi Form Tidak Boleh Kosong
 Menambahkan input angka dan tombol Submit yang memanggil `cek()`. Jika kolom kosong, muncul alert "Masukkan bilangan!". Jika terisi, `cekGenap()` dijalankan.
 
-<img src="">  
-<img src="">  
-<img src="">  
-<img src="">  
-<img src="">  
+<img src="Folder_Foto/kode_15.png">  
+<img src="Folder_Foto/kode_15_l1.png">  
+<img src="Folder_Foto/hasil_15.png">  
+<img src="Folder_Foto/hasil_15_l1.png">  
+<img src="Folder_Foto/hasil_15_l2.png">  
 
 ### Eksperimen 5: Menambah Pilihan Menu dan Harga
-Menambahkan tiga menu baru pada Latihan 8: Mie Rebus (Rp3.000), Ayam Geprek (Rp5.700), dan Spageti (Rp8.150). Total semua menu Rp24.850.
+Menambahkan tiga menu baru pada Latihan 8: Ayam Panggang (Rp3.000), Ayam Geprek (Rp5.700), dan Nasi (Rp8.150). Total semua menu Rp24.850.
 
 <img src="Folder_Foto/kode_16.png">  
 <img src="Folder_Foto/kode_16_l1.png">  
