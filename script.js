@@ -127,39 +127,39 @@ console.log("Hello World");
 
 
 // cek angka genap
-function cek(){
-    let angka = Number(document.getElementById("angka").value);
-
-    function cekGenap(angka){
-        if (angka % 2 == 0){
-            alert("Bilangan Genap : True");
-        }else{
-            alert("Bilangan Genap : False")
-        }
-    }
-
-    if (angka == ""){
-        alert("Masukkan bilangan!")
-        return
-    }else {
-        cekGenap(angka);
-    }
-}
-
 // function cek(){
-//     const nama = document.getElementById("nama").value;
-//     const angka = Number(document.getElementById("angka").value);
-//     if (nama === ""){
-//         alert("Nama tidak boleh kosong")
-//         return;
-//     } else {
-//         if (angka < 0 || angka > 100){
-//             alert("Hanya bisa menerima angka dalam range 0 - 100");
-//             return;
-//         } else if (angka == "") {
-//             alert("Angka tidak boleh kosong")
-//         } else {
-//             alert("Nama : "+ nama + ", angka yang dipilih : " + angka);
+//     let angka = Number(document.getElementById("angka").value);
+
+//     function cekGenap(angka){
+//         if (angka % 2 == 0){
+//             alert("Bilangan Genap : True");
+//         }else{
+//             alert("Bilangan Genap : False")
 //         }
 //     }
+
+//     if (angka == ""){
+//         alert("Masukkan bilangan!")
+//         return
+//     }else {
+//         cekGenap(angka);
+//     }
 // }
+
+function cek(){
+    const nama = document.getElementById("nama").value;
+    const angka = Number(document.getElementById("angka").value);
+    if (nama === ""){
+        alert("Nama tidak boleh kosong")
+        return;
+    } else {
+        if (angka < 0 || angka > 100){
+            alert("Hanya bisa menerima angka dalam range 0 - 100");
+            return;
+        } else if (angka == "") {
+            alert("Angka tidak boleh kosong")
+        } else {
+            alert("Nama : "+ nama + ", angka yang dipilih : " + angka);
+        }
+    }
+}
